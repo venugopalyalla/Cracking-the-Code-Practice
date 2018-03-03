@@ -2,7 +2,7 @@ import java.util.Stack;
 
 public class AddTwoLists {
 
-	static int addLists(Node n1, Node n2) {
+	static void addLists(Node n1, Node n2) {
 		Stack<Integer> stack1 = new Stack<Integer>();
 		Stack<Integer> stack2 = new Stack<Integer>();
 		Stack<Integer> result = new Stack<Integer>();
@@ -30,7 +30,6 @@ public class AddTwoLists {
 		for(int i=0; i<n;i++) {
 			System.out.println(result.pop());
 		}
-		return 0;
 	}
 	public static void main(String[] args) {
 		LinkedListImpl list1 = new LinkedListImpl();
