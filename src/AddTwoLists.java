@@ -2,7 +2,7 @@ import java.util.Stack;
 
 public class AddTwoLists {
 
-	static void addLists(Node n1, Node n2) {
+	public static void addLists(Node n1, Node n2) {
 		Stack<Integer> stack1 = new Stack<Integer>();
 		Stack<Integer> stack2 = new Stack<Integer>();
 		Stack<Integer> result = new Stack<Integer>();
